@@ -74,6 +74,27 @@ div.campo > label{
     display: none;
 }
 
+div.campo > span{
+    
+    color: white;
+    /*background-color: yellow;*/
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: #60d4d1;
+    font-size: 1em;
+    width: calc(100%-40px);
+    height: 100%;
+    border-radius: 5px;
+    border: 0px;
+    transform: translateY(-10px);
+   padding: 2.11px;
+   
+}
+
 form > input{
     display: block;
     font-size: 1em;
@@ -112,3 +133,4 @@ form > a.botao:hover{
     background-color: #60d4d1 ;
     border: 1px solid #224b4a;
 }
+

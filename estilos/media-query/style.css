@@ -5,11 +5,13 @@
         background-image: linear-gradient(to top,#49a09d, #5f2c82);
     }
     section#login{
-        width: 80vw;
+        width: 70vw;
+        height: 300px;
+        border-radius: 25px;
     }
     section#login > div#imagem{
         float: right; /*determina que um elemento deve ser retirado do seu fluxo normal e colocado ao longo do lado direito ou esquerdo do seu containêr*/
-        width: 35%;
+        width: 30%;
         height: 100%;
         
     }
@@ -28,6 +30,8 @@
     }
     section#login{
         width: 80vw;
+        height: 300px;
+        border-radius: 25px;
     }
     section#login > div#imagem{
         float: left;
